@@ -1,5 +1,9 @@
 def listoverlap(list1, list2):
-    return
+    list3 = []
+    for i in list2:
+        if i in list1:
+            list3.append(i)
+    return list3
 
 
 def main():
