@@ -2,9 +2,10 @@ import datetime
 
 
 def years(age):
-    year = 2016 - age + 100
-    return year
-
+    year = datetime.date.today().year
+    years_left=(year - age) + 100
+    
+    return years_left
 
 def main():
     return
